@@ -9,6 +9,8 @@ body {
 nav {
   background-color: blueviolet;
   height: 80px;
+  position: absolute;
+  width: 100%;
 }
 
 nav img {
