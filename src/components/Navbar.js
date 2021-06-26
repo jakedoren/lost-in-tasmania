@@ -1,10 +1,16 @@
-import React from 'react'
-import logo from '../assets/logo.png'
+import React from 'react';
+import { Link } from 'gatsby';
 
 const Navbar = () => {
     return (
         <nav>
-            <img src={logo} alt="logo" />
+            <div className="nav-wrapper">
+                <img src="/logo.png" alt="logo" className="nav-logo" />
+                <div className="links">
+                    <Link to="/">About</Link>
+                    <Link to="/author">Author</Link>
+                </div>
+            </div>
         </nav>
     )
 }
