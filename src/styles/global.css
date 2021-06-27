@@ -1,21 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap");
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Kirang Haerang";
 }
 
 /* Navbar styles */
 
 nav {
-  background-color: blueviolet;
+  background-color: #ffffff63;
   height: 80px;
-  position: absolute;
+  position: fixed;
   width: 100%;
 }
 
 nav img {
   height: 4em;
   border-radius: 100%;
+}
+
+nav h1 {
+  color: #233b91;
 }
 
 .nav-wrapper {
@@ -29,4 +36,8 @@ nav img {
 
 .links a {
   margin-left: 2em;
+  color: #233b91;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 550;
 }
