@@ -1,17 +1,4 @@
-import React from 'react'
-import * as styles from '../styles/synopsis.module.css'
-
-const Synopsis = () => {
-    return (
-        <div className={styles.synopsis}>
-            <div className={styles.wrapper} >
-                <div className={styles.boxleft}>
-                    <h1>About the Book</h1>
-                    <h2>The rundown</h2>
-                    <p>After a four-year-long sabbatical from treasure hunting, Karter Kane, otherwise  known as the infamous Tasmanian Devil, returns to the fray to assist his star pupil,  Claire Addison, on her first big adventure to find the final resting place of King  Arthur and his legendary sword, Excalibur. However, his absence has left him a  little out of the loop between his disconnect from those he loved most as well as  this high-intensity lifestyle he now has to readjust to life as a hunter. On top of  that, the secrets and lies that encapsulate the myth of King Arthur send Karter,  Claire, and their friends on an absolute tailspin of epic proportions as they  navigate their way through the perilous treasure hunting community and uncover  the dark secrets behind the real King Arthur's story.</p>
-                </div>
-                <div className={styles.boxright}>
-                <svg width="406" height="406" viewBox="0 0 406 306" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="406" height="306" viewBox="0 0 406 306" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="Parachute_Monochromatic 1">
 <path id="Background" opacity="0.27" d="M103.261 114.803C101.917 123.61 102.295 132.885 98.6829 141.026C95.8828 147.326 90.9827 152.359 86.9856 157.988C82.1657 164.804 78.7485 172.51 76.9326 180.658C75.1167 188.806 74.9383 197.234 76.4076 205.452C77.877 213.669 80.9649 221.513 85.492 228.527C90.019 235.541 95.8948 241.586 102.778 246.309C106.663 248.976 110.954 251.314 113.726 255.123C116.876 259.449 117.597 265.021 119.432 270.047C123.688 281.681 134.279 290.348 146.13 293.995C157.982 297.642 170.897 296.599 182.727 292.924C189.798 290.726 196.658 287.596 204.008 286.679C212.191 285.664 220.431 287.477 228.593 288.688C241.984 290.684 255.894 291.055 268.865 287.239C281.836 283.424 293.912 274.989 299.89 262.844C313.778 234.612 291.77 197.525 307.66 170.378C311.104 164.491 316.06 159.668 319.994 154.089C326.391 144.938 329.782 134.025 329.697 122.861C329.613 115.076 327.66 107.026 322.613 101.097C320.267 98.3459 317.334 96.1198 315.15 93.2357C311.461 88.3356 310.25 82.1054 308.752 76.1762C305.392 63.1279 299.33 49.9395 288.095 42.4982C277.594 35.561 264.371 34.686 251.805 34.546C241.06 34.434 230.217 34.707 219.758 37.1781C199.136 42.0502 181.292 55.0706 160.292 58.5637C142.452 61.4436 126.434 71.1549 115.63 85.6405C109.202 94.2138 104.957 104.223 103.261 114.803V114.803Z" fill="#233B91"/>
 <path id="cloud-right" d="M268.795 165.205C268.701 166.625 268.941 168.048 269.497 169.359C270.052 170.669 270.908 171.831 271.994 172.751C274.197 174.571 276.863 175.739 279.694 176.125C284.3 176.897 289.031 176.294 293.296 174.389C294.696 173.752 296.208 172.954 297.72 173.283C298.847 173.528 299.736 174.354 300.667 175.04C305.896 178.862 313.015 178.288 319.469 177.7C323.334 177.35 327.261 177.042 330.929 175.768C334.597 174.494 338.048 172.086 339.707 168.572C341.366 165.058 340.778 160.361 337.726 157.96C336.221 156.77 334.149 156.077 333.379 154.313C332.861 153.115 333.106 151.722 332.833 150.441C332.07 146.941 327.933 145.541 324.433 144.841C322.004 144.358 319.392 143.945 317.138 144.946C313.918 146.381 312.238 150.357 308.801 151.246C305.049 152.261 301.584 149.076 297.867 147.949C295.828 147.372 293.665 147.402 291.643 148.036C289.621 148.671 287.828 149.881 286.484 151.519C285.665 152.548 284.895 153.837 283.6 154.075C281.885 154.39 280.499 152.989 278.805 153.809C277.874 154.264 276.705 156.14 275.718 156.847C272.645 159.094 269.278 161.054 268.795 165.205Z" fill="white"/>
@@ -246,11 +233,3 @@ const Synopsis = () => {
 </linearGradient>
 </defs>
 </svg>
-
-                </div>
-            </div>
-        </div>
-    )
-}
-
-export default Synopsis

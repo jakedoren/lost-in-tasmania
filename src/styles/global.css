@@ -48,3 +48,29 @@ nav h1 {
   font-size: 1.2em;
   font-weight: 550;
 }
+
+#Man {
+  animation: parachuteman 2s infinite ease-in-out alternate;
+}
+
+#cloud-left, #cloud-middle, #cloud-right {
+  animation: cloud 1s infinite ease-in-out alternate;
+}
+
+@keyframes parachuteman {
+  from{
+    transform: translateY(0px);
+  } to {
+      transform: translateY(20px);
+  }
+}
+
+@keyframes cloud {
+  from{
+    transform: translateY(0px);
+  } to {
+    transform: translateY(8px);
+  }
+}
+
+/* db6137  DD8046  517136 233b91*/
