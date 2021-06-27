@@ -1,0 +1,45 @@
+.author {
+  /* background-color: blue; */
+  padding: 5em;
+}
+
+.author img {
+  height: 550px;
+  border-radius: 2em;
+  padding: 1em;
+}
+
+.imgcontainer {
+  flex: 1;
+  /* background-color: blueviolet; */
+}
+
+.textcontainer {
+  display: flex;
+  align-items: center;
+  flex: 2;
+  /* background-color: cadetblue; */
+}
+
+.textcontainer div {
+  background-color: chocolate;
+  width: 80%;
+  height: 90%;
+  margin: 0 auto;
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+.textcontainer div p {
+  /* font-size: 1.2em;
+  line-height: 1.4em; */
+}
+
+.wrapper {
+  width: 85%;
+  margin: 0 auto;
+  background-color: tomato;
+  border-radius: 1em;
+  padding: 1em;
+  display: flex;
+}
