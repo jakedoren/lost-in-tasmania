@@ -1,5 +1,7 @@
 .author {
   /* background-color: #98bbfd; */
+  /* background-color: #aaf0b5; */
+  /* background-color: #f1f1f1; */
   padding: 5em;
 }
 
@@ -39,7 +41,7 @@
   width: 85%;
   margin: 0 auto;
   background-color: #aaf0b5;
-  background-color: #f6974d;
+  /* background-color: #f6974d; */
   border-radius: 1em;
   padding: 1em;
   display: flex;

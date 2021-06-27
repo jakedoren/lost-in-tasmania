@@ -5,6 +5,8 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Kirang Haerang";
+  /* background-color: #f1f1f1; */
+  background-color: #dceefc;
 }
 
 /* Navbar styles */

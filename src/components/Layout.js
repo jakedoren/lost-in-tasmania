@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
             <div className="content">
                 { children }
             </div>
-            <footer>
+            <footer style={{backgroundColor: "#bde3ee", padding: "80px"}}>
                 <p>Copyright {currentYear} </p>
             </footer>
         </div>

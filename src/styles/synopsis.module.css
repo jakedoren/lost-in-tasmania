@@ -1,0 +1,29 @@
+.synopsis {
+  /* background-color: blue; */
+  padding: 100px 0;
+}
+
+.boxleft {
+  flex: 2;
+  /* background-color: blueviolet; */
+  padding: 3em;
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+.boxright {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  /* background-color: brown; */
+}
+
+.boxright img {
+  height: 300px;
+}
+
+.wrapper {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+}
