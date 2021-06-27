@@ -1,5 +1,5 @@
 .author {
-  /* background-color: blue; */
+  /* background-color: #98bbfd; */
   padding: 5em;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .textcontainer div {
-  background-color: chocolate;
+  /* background-color: chocolate; */
   width: 80%;
   height: 90%;
   margin: 0 auto;
@@ -38,7 +38,8 @@
 .wrapper {
   width: 85%;
   margin: 0 auto;
-  background-color: tomato;
+  background-color: #aaf0b5;
+  background-color: #f6974d;
   border-radius: 1em;
   padding: 1em;
   display: flex;

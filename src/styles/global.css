@@ -10,10 +10,15 @@ body {
 /* Navbar styles */
 
 nav {
-  background-color: #ffffff63;
+  /* background-color: #ffffff63; */
   height: 80px;
   position: fixed;
   width: 100%;
+}
+
+.nav-set {
+  background-color: #ffffff63;
+  transition: background-color 0.5s ease-in-out;
 }
 
 nav img {
